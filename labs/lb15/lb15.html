@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+   <meta charset="UTF-8"> 
+   <meta name="viewport" content="width-device-width">
+   <title> Lab 15 </title> 
+   <link rel="stylesheet" href="../../mainPortfolio.css">
+    <link rel="shortcut icon" href="../lab6/logo.png" type="image/x-icon" >
+<link rel="stylesheet" href="lb15.css">
+   </head>
+   <body>
+     <div class="topnav"> 
+    <a href="../lab1/lab1.html"> Lab #1</a>
+    <a href="../lab2/lab2.html"> Lab #2</a>
+    <a href="../lab3/lab3.html"> Lab #3</a>
+    <a href="../lab4/lab4.html"> Lab #4 </a>
+    <a href="../lab5/lab5.html"> Lab #5 </a>
+    <a href="../lab6/lab6.html"> Lab #6</a>
+    <a href="../lab7/lab7.html"> Lab #7</a>
+    <a href="../lab8/lab8.html"> Lab #8</a>
+    <a href="../lab9/lab9.html"> Lab #9</a>
+    <a href="../lb10/lb10.html"> Lab #10 </a>
+    <a href="../lb11/lb11.html"> Lab #11 </a>
+    <a href="../lb12/lb12.html"> Lab #12 </a>
+    <a href="../lb13/lb13.html"> Lab #13 </a>
+    <a href="../lb14/lb14.html"> Lab #14 </a>
+    <a href="../lb15/lb15.html"> Lab #15 </a> 
+    <a href="../lb16/lb16.html"> Lab #16 </a>
+    <a href="../lb17/lb17.html"> Lab #17 </a>
+    <a href="../lb18/lb18.html"> Lab #18 </a>
+    <a href="../lb19/lb19.html"> Lab #19 </a>
+   <a href="../lb20/lb20.html"> Lab #20</a>
+   </div>
+   <div class="header">
+  <h3>Thomas A. Edison CTE High School</h3>
+  <h3>Web Design</h3>
+  <h3>Lab 15</h3>
+  <h4>3/7/22</h4>
+  <h5>Allia Dalana</h5>
+   </div>
+   <body>
+  <script>
+    
+    // This function affects the change button with the word dog.
+    function textChange(){
+      document.getElementById("demo").innerHTML="DOG";
+    }
+    // This affects the reset button and changes the word to Lorem Ipsum.
+    function textReset(){
+      document.getElementById("demo").innerHTML="Lorem Ipsum"
+    }
+    alert("Warning This Lab requires more thought")
+    var mood=prompt("How are you today?")
+    alert(mood)
+
+    var x;
+    x=5;
+    console.log(x)
+    var y=2;
+    console.log(y)
+    var z=y+x;
+    console.log(z)
+    console.log("I am great and you are" +mood)
+  </script>
+	<div class="wrapper">
+		<div class="center">
+      <center>
+			<h1>TEXT CHANGER</h1>
+      <h2> Allia Dalana</h2>
+			<button type="button" onClick="textChange()" class="button-property">Change</button>
+			<button type="button" onClick="textReset()" class="button-property">Reset</button>
+			<p id="demo">Lorem Ipsum</p>
+		</div>
+	</div>

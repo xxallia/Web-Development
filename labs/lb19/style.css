@@ -1,0 +1,52 @@
+.wow {
+  width: 100px;
+}
+body{
+  background-color: lightcyan ;
+  text-align: center;
+}
+hr.solid {
+  border-top: 1px solid #008a94;
+}
+h3{
+  color:darkcyan;
+}
+h4{
+  color: steelblue;
+}
+p{
+  color: #0e4e47;
+}
+div{
+  border-style: solid;
+  border-color: #346793;
+}
+.topnav{
+  background-color: rgb rgba(139, 203, 255, 0.397);
+  overflow: hidden;
+}
+.topnav a{
+  color:rgb(77, 190, 255);
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color: #570505;
+  color: #e2c1bb;
+}
+
+
+  /* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image:url("https://imagesjunction.com/images/img/yellow_aesthetic_images.jpg");
+  background-size:350px 300px;
+  color: #8a3d3d;
+  font-size: 30px;
+}
+
+
+}

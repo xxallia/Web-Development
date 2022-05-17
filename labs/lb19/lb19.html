@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lab 19</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+        <div class="topnav"> 
+    <a href="../lab1/lab1.html"> Lab #1</a>
+    <a href="../lab2/lab2.html"> Lab #2</a>
+    <a href="../lab3/lab3.html"> Lab #3</a>
+    <a href="../lab4/lab4.html"> Lab #4 </a>
+    <a href="../lab5/lab5.html"> Lab #5 </a>
+    <a href="../lab6/lab6.html"> Lab #6</a>
+    <a href="../lab7/lab7.html"> Lab #7</a>
+    <a href="../lab8/lab8.html"> Lab #8</a>
+    <a href="../lab9/lab9.html"> Lab #9</a>
+    <a href="../lb10/lb10.html"> Lab #10 </a>
+    <a href="../lb11/lb11.html"> Lab #11 </a>
+    <a href="../lb12/lb12.html"> Lab #12 </a>
+    <a href="../lb13/lb13.html"> Lab #13 </a>
+    <a href="../lb14/lb14.html"> Lab #14 </a>
+    <a href="../lb15/lb15.html"> Lab #15 </a> 
+    <a href="../lb16/lb16.html"> Lab #16 </a>
+    <a href="../lb17/lb17.html"> Lab #17 </a>
+    <a href="../lb18/lb18.html"> Lab #18 </a>
+    <a href="../lb19/lb19.html"> Lab #19 </a>
+   <a href="../lb20/lb20.html"> Lab #20</a>
+   </div>
+   <div class="header">
+<h1>Lab 19</h1>
+</div>
+<body>
+  <div class="topnav">
+ <a href="../../">Home</a> 
+ <a class="#labs">LABS</a> 
+ <a class="#projects">PROJECTS</a>
+ <a href="../../Biography/Allia/Allia.html">BIOGRAPHY</a>
+ <a href="../../Biography/Jacqueline/Jacqueline.html">BIOGRAPHY2</a>
+ <a href="https://www.taehs.org/">TEACHTECH</a> 
+ <a class="#blog">BLOG</a> 
+  </div>
+<h3> Lab Rollovers By Allia and Jacqueline</h3>
+  <hr class="solid">
+  <br>
+  <h4> HTML Hoverover</h4>
+  <img src="a.jpg" width="250px"
+      onmouseover="this.src='a.jpg';"
+      onmouseout="this.src='b.jpg';">
+  <p> The hoverover is created with only HTML. When you hover over it the image changes.</p>
+   <hr class="solid">
+  <br>
+<h4> JavaScript Rollover</h4>
+  
+  <img src="2.jpg" width="250" name="r1"> 
+  <table width="1000">
+    
+    <tr>
+       <td align="center" >
+        <td>
+      <img src="2.jpg" width="200"
+       onmouseover= "document.r1.src=pic1.src;"/>
+       </td>
+      <td>
+        <img src="3.jpg" width="200"
+       onmouseover= "document.r1.src=pic2.src;"/>
+      </td> 
+      <td>
+      <img src="4.jpg" width="200"
+        onmouseover= "document.r1.src=pic3.src;"/>
+  </td> 
+  <td>  
+    <img src="5.jpeg" width="250"
+      onmouseover= "document.r1.src=pic4.src;"/>
+  </td>
+    <td>
+      <img src="1.jpg" width="250"
+        onmouseover= "document.r1.src=pic5.src;"/>
+    </td>
+      <td>
+        <img src="6.jpg" width="250"
+          onmouseover= "document.r1.src=pic6.src;"/>
+      </td>
+      </tr>
+  </table>
+    <p> This is a rollover created with HTML and Javascript. When you hover over the smaller images, that image you have your mouse on is the image that as the main image on the top.</p>
+   <hr class="solid">
+  <script>
+    if(document.images){
+      pic1=new Image();
+      pic2=new Image();
+      pic3=new Image();
+      pic4=new Image();
+      pic5=new Image();
+      pic6=new Image();
+      pic1.src='2.jpg';
+      pic2.src='3.jpg';
+      pic3.src='4.jpg';
+      pic4.src='5.jpeg';
+      pic5.src='6.jpg';
+      pic6.src='1.jpg';
+    }
+    else{
+      pic1=pic2=pic3=pic4=pic5=document.r1="";
+    }
+    
+  </script>
+
+</body>
+
+</html>

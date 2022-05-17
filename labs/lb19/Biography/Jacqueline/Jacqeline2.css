@@ -1,0 +1,44 @@
+body{
+  background-color: #d9c4c4;
+}
+h3{
+  color: #7b4768;
+  position:center;
+}
+div{
+  border-style: solid;
+  border-color: #346793;
+}
+.topnav{
+  background-color: rgb rgba(139, 203, 255, 0.397);
+  overflow: hidden;
+}
+.topnav a{
+  color:rgb(139, 14, 14);
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color: #b1cdcd;
+  color: #124e68;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image:url("https://i.pinimg.com/550x/be/b9/2e/beb92e6f22751f9fd6b7a9526dfc3667.jpg");
+  background-size:350px 300px;
+  color: indianred;
+  font-size: 30px;
+}
+.lol{
+border: #8c3636 solid 2px;
+        width: 450px;
+        height: 180px;
+        position: absolute;
+        left: 550px;
+        padding: 1px;
+        margin: 10px;
+        overflow: hidden;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+   <meta charset="UTF-8"> 
+   <meta name="viewport" content="width-device-width">
+   <title> Internal CSS </title> 
+    <link rel="shortcut icon" href="../lab6/logo.png" type="image/x-icon" >
+    <style>
+   .p1 {
+  font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+.p2 {
+  font-size: 1.875em; /* 30px/16=1.875em */
+}
+
+.p3 {
+  font-size: 0.875em; /* 14px/16=0.875em */
+}
+
+      /*the *works as a universal selector for CSS*/
+      *{
+        box-sizing:border-box;
+      }
+      body{
+      background-image:url("https://wallpapercave.com/wp/wp6990058.jpg");
+      background-repeat:no-repeat;
+      background-size:100%;
+      }
+      /*A CSS selector selects the HTML element(s) you want to style. Simple selectors (select elements based on name, id, class)
+      */
+      /*any html tag can be considered a selector. For example*/
+      .header{
+height:100px;
+width:1350px;
+background-image:linear-gradient(to bottom right, khaki, brown);
+text-align:center;
+padding:20px;
+margin:5px;
+color:black;
+      }
+      /* The class selector slects HTML elements with a specific class, write a period (.) character followed by the class name. */
+      .topnav{
+  background-color: #f1eeee;
+  overflow:hidden;
+}
+/* The id selector uses the id attribute of an html element to select a specific element. 
+The id of an element is unique within a page. so the id selector is used to select one unique element!
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.*/
+
+/* The grouping selector selects all the HTML elements with the same style definitions.
+It will be better to group the selectors to minimize the code. To group slectors, separate each selector with a comma.*/
+
+/* CSS Combinators
+A combinator is something that explains the relationship between the selectors. A CSS selector can contain more than one simple selector. Between the simple selectors , we can conclude a combinator. There are four different combinators in CSS: 
+descendant selector(space)
+child selector (>)
+adjacent sibiling selector (+)
+general sibiling selector(~)*/
+
+/* Psuedo class is used to define a special state of an element. For example, it can be used to style an element when a user mouses over it style visited and unvisited links differently. Style an element when it gets focus */
+
+/* The [attribute] selector is used to select elements with a speicfied attribute. The following example selects all <a> elements with a target attribute: */
+      .topnav a{
+  color:rgb(14, 1, 5);
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px
+}
+.topnav a:hover{
+  background-color: rgb(122, 153, 116);
+  color: rgb(255, 255, 255);
+}
+/* unvisited link */
+a:link {
+  color: Yellow;
+}
+
+/* visited link */
+a:visited {
+  color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+    </style>
+</head>
+   </head>
+   <body>
+     
+    <div class="topnav">
+    
+    <a href="../lab1/lab1.html"> Lab #1</a>
+    <a href="../lab2/lab2.html"> Lab #2</a>
+    <a href="../lab3/lab3.html"> Lab #3</a>
+    <a href="../lab4/lab4.html"> Lab #4 </a>
+    <a href="../lab5/lab5.html"> Lab #5 </a>
+    <a href="../lab6/lab6.html"> Lab #6</a>
+    <a href="../lab7/lab7.html"> Lab #7</a>
+    <a href="../lab8/lab8.html"> Lab #8</a>
+    <a href="../lab9/lab9.html"> Lab #9</a>
+    <a href="../lb10/lb10.html"> Lab #10 </a>
+    <a href="../lb11/lb11.html"> Lab #11 </a>
+    <a href="../lb12/lb12.html"> Lab #12 </a>
+    <a href="../lb13/lb13.html"> Lab #13 </a>
+    <a href="../lb14/lb14.html"> Lab #14 </a>
+    <a href="../lb15/lb15.html"> Lab #15 </a> 
+    <a href="../lb16/lb16.html"> Lab #16 </a>
+    <a href="../lb17/lb17.html"> Lab #17 </a>
+    <a href="../lb87/lb18.html"> Lab #18 </a>
+    <a href="../lb19/lb19.html"> Lab #19 </a>
+   <a href="../lb20/lb20.html"> Lab #20</a>
+   </div>
+   <div class="header">
+   <h1>Lab 10</h1>
+   </div>
+  <style>
+  div{
+      background-image: url(https://i.pinimg.com/736x/d6/d9/61/d6d9614f517e59de6f052fb8acd6a602.jpg)
+  }
+  h1, h2{
+    background-color: pink;
+  }
+  h1, h2{
+    text-align: center;
+    color: Forestgreen; 
+  }
+  </style>
+<h1> Thomas A. Edison High School </h1>
+  <h2> Web Design </h2>
+  <h3> Sophmore </h3>
+  <h4> Lab 10 Internal CSS </h4>
+  <h5> Feb. 9th 2022 </h5>
+  <h6> Allia Dalana </h6> 
+<div id="demoBox">
+<style>
+p{
+  text-align: center;
+  color:Yellow;
+}
+
+</style>
+<p>Allia</p>
+<p>Dalana</p>
+<p>Feb 9th 2022</p>
+</div>
+

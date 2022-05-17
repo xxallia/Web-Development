@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Helvetica', sans-serif
+}
+/* This code changes the background color, sizing and outline*/
+body{
+  background-color:#dbd09a
+;
+  height:100vh;
+  width:100vw;
+  display:block;
+  position:relative;
+}
+/* This code changes the background sizing and outline*/
+.wrapper{
+  display:block;
+  background-color:burlywood;
+  width:600px;
+  height:600px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  padding:5px;
+  outline:black solid 7px;
+  outline-offset:-15px;
+  overflow:hidden;
+}
+/* This code changes the background sizing and outline*/
+.section_userform{
+  width:75%;
+  display:block;
+  margin:0 auto;
+  color:#8a8a8a;
+
+}
+/*This controls the label*/
+.input_label{
+  width:35%;
+  text-align:right;
+  font-size:1.5em;
+  color:black;
+}
+.break{
+  display:block;
+  width:100%;
+  margin:2em 0;
+}
+/* this controls the textbox color and sizing*/
+.textbox{
+  width:50%;
+  height:1.8em;
+  box-sizing:content-box;
+  background-color:#d2cfa2;
+  border-color:#87845a;
+  padding-left:1em;
+  color:white;
+}
+/* all the buton classes control the buttons.*/
+.button{
+  display:block;
+  margin:none;
+  padding: 0.5em 2.55em;
+  text-transform:uppercase;
+  background-color:burlywood;
+  border-color:#574750; 
+  font-size: 1.3em;
+  border-width: 3px;
+  border-radius:10px;
+  border-style:solid;
+  color:574750;
+}
+.button:hover{
+  background-color:mistyrose;
+  color:#475c42;
+  border-color:lightblue;
+  transform:scale(1.05);
+}
+.buttonWrapper{
+  display:grid;
+  justify-content:center;
+}
+.section_info{
+  text-align:center;
+  margin:1em;
+  color:#87845a;
+}
+.section_info h1{
+  font-size:5em;
+}
+#line{
+  border-color:chocolate;
+  width:80%;
+  margin-botton:4em;
+}
+.result{
+  width:45%;
+  text-align:left;
+  display:inline-block;
+  font-size:1.5em;
+  color:black;
+}
+.result_label{
+  width:20%;
+  text-align:right;
+  display:inline-block;
+  font-size:1.5em;
+  color:saddlebrown;
+}
+#before{
+  opacity:1;
+  display:block;
+}
+#after{
+  display:none;
+  opacity:0;
+}
+.button:focus #before{  display:hidden;
+  opacity:0; position:absolute; top:800px;}

@@ -1,0 +1,62 @@
+/* The container <div>- needed to position the dropdwon content.*/
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+/* Drop down content hidden by default.*/
+.dropdowncontent{
+  display:none;
+  position: absolute;
+  background-color:rgb(247, 199, 228);
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px;
+  padding: 12px 16px;
+  z-index: 1;
+  color:rgb(216, 27, 27);
+  text-decoration: none;
+}
+.dropdown:hover .dropdowncontent{
+display:block;
+}
+/* Style the dropdown button*/
+.drpmenu{
+  background-color:crimson;
+  color:rgb(247, 199, 228);
+  padding:16px;
+  margin:10px;
+  font-size:16px;
+  border:none;
+  cursor:pointer;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown.*/
+.dropdown:hover .drpmenu{
+  background-color: rgb(247, 199, 228);
+  color:crimson;
+}
+/* Links inside the dropdown.*/
+.dropdown a{
+  display:none;
+}
+.dropdown:hover a{
+  display:block;
+  background-color:lightpink;
+  color:rgb(253, 252, 255);
+  border:0.1px solid red;
+}
+.dropdown:hover a:hover{
+  display:block;
+  background-color:rgb(255, 255, 255);
+  color:lightpink;
+  border:0.1px solid rgb(87, 81, 81);
+}
+.dropdown img{
+  border:10px dotted crimson;
+}
+.caption{
+  display: none;
+  font-size: 12px;
+  color:crimson;
+}
+.dropdowncontent:hover .caption{
+  display: block;
+}

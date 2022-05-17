@@ -1,0 +1,21 @@
+#movingbox {
+  width: 300px;
+  height:300px;
+  border: 15px solid #ddf1f8;
+  background-color:pink;
+  padding: 50px;
+  margin: 20px;
+  positive:relative;
+} 
+button {
+  border: none;
+  color: #c74343;
+  background-color:lavenderblush;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
